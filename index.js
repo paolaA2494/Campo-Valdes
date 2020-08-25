@@ -18,7 +18,7 @@ let edad = 26;
 
 //ecm6 
 console.log(`Hola, me llamo ${nombrePersona} ${apellidos}  y tengo ${edad} años`);
-console.log("Hola, me llamo " + nombrePersona + apellidos + ' y tengo ' + edad + " años");
+console.log("Hola, me llamo " + nombrePersona  + "" +  apellidos  + ' y tengo ' + edad + " años");
 
 
 //tipos de datos
@@ -54,7 +54,7 @@ let number = 20;
 
 //estructura hacemos referencia a la función
 //por medio de la palabra reservada function, seguido definimos el nombre
-//de la funcion, ()
+//de la funcion, (parámetros), el método return
 function multiplicar (x) {
     //devuelvame lo siguiente
     return x * x;  
@@ -77,7 +77,8 @@ console.log(sum(4,5));
 
 //EMC 6 FUNCIONES fLECHA
 // las funciones tipo flecha son anonimas
-//en vez de usar la palabra reservada function usamos una =>
+//en vez de usar la palabra reservada function usamos una =>, después de definir los 
+//parámetros
 const multi = (a,b) => {
     return a * b;
 }
